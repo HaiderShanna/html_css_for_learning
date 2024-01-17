@@ -9,10 +9,6 @@
 </head>
 <body>
   <header>
-   <video src="images/lightopia-main-bxl-vbr-4mb-4mb.mp4" autoplay muted loop ></video>
-    <div class="circle">
-      <p>OPEN FROM<br>12 NOV TILL<br>8 JAN 2023</p>
-    </div>
     <nav class="nav-header" id="navHeader">
       <a href="index.html" class="logo"><img  src="images/logo.svg" alt=""></a>
       <ul class="header-links">
@@ -28,15 +24,20 @@
         <li>
           <a href="">FAQ</a>
         </li>
-        <li>
-          <a href=""><button> BUY TICKETS</button></a>
+        <li class="button-a">
+          <a href="" class="button-a"><button> BUY TICKETS</button></a>
         </li>
       </ul>
+      <a href="" class="ticket-button-a"><button class="ticket-button">TICKETS</button></a>
+      <i class="bi bi-x" id="closeMenu" onclick="closeMenu()"></i>
+      <i class="bi bi-list" id="hamMenu" onclick="showMenu()"></i>
     </nav>
-    
-    
+    <video src="images/lightopia-main-bxl-vbr-4mb-4mb.mp4" autoplay muted loop ></video>
+    <div class="circle">
+      <p>OPEN FROM<br>12 NOV TILL<br>8 JAN 2023</p>
+    </div>
   </header>
-
+<!-- 
   <section class="description">
     <h1>
       A CHRISTMAS<br>FAIRYLAND AT<br>THE CASTLE OF<br>GRAND-BIGARD
@@ -185,7 +186,7 @@
       </div>
     </div>
     <img src="images/logo.svg">
-  </footer>
+  </footer> -->
 
   <script src="script.js"></script>
 </body>
